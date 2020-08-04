@@ -1,1 +1,1 @@
-# django-rest-sandbox
+Collection of django-rest-framework projects.
