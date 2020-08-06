@@ -7,5 +7,5 @@ from posts.views import PostDestroyAPIView
 urlpatterns = [
     path('', PostListCreateAPIView.as_view()),
     path('<int:pk>/', PostRetrieveUpdateAPIView.as_view()),
-    path('<int:pk>/delete/', PostDestroyAPIView.as_view()),
+    path('<int:pk>/', PostDestroyAPIView.as_view()),
 ]
